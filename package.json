@@ -1,0 +1,73 @@
+{
+  "name": "react-image-classifier",
+  "version": "0.1.0",
+  "description": "React App to classify images with Tensorflow model MobileNet",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --env.PLATFORM=local --env.VERSION=stag",
+    "prebuild": "webpack --mode production --config config/webpack.prod.config.js --env.PLATFORM=production --env.VERSION=stag --progress",
+    "build": "node server",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samlehman617/react-image-classifier.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "webpack4",
+    "tensorflow",
+    "mobilenet",
+    "bable7"
+  ],
+  "author": "Sam Lehman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samlehman617/react-image-classifer/issues"
+  },
+  "homepage": "https://samlehman.me/image-classifier",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^1.0.1",
+    "@tensorflow/tfjs": "^1.1.2",
+    "@tensorflow/tfjs-converter": "^1.1.2",
+    "@tensorflow/tfjs-node": "^1.1.2",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-dropzone": "^10.1.4",
+    "reactstrap": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.2.0",
+    "webpack-merge": "^4.1.4",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
