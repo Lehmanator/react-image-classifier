@@ -2,7 +2,7 @@
 # React Image Classifier
 A React App to classify images using Tensorflow model MobileNet.
 
-![React-Webpack-4-Babel-7-boilerplat](https://raw.githubusercontent.com/samlehman617/react-image-classifier/master/demo.gif)
+<a href="https://raw.githubusercontent.com/samlehman617/react-image-classifier/master/demo.gif"><img src="https://raw.githubusercontent.com/samlehman617/react-image-classifier/master/demo.gif" align="center" height="auto" width="70%" margin="auto"></a>
 
 ### Installation
  - Clone or download the repo.
