@@ -68,14 +68,10 @@
 Please contribute to the project if you know how to make it better, including this README :)
 
 ## To-Do
-
-[  ] Split code into re-usable component
-
-[  ] Allow arbitrary Tensorflow image classifiers
-
-[  ] Add UI for switching between pre-defined/pre-trained models
-
-[__] Make into a Progressive Web App
+- [ ] Split code into re-usable component
+- [ ] Allow arbitrary Tensorflow image classifiers
+- [ ] Add UI for switching between pre-defined/pre-trained models
+- [ ] Make into a Progressive Web App
 
 ## Credits
 [react-dropzone](https://github.com/react-dropzone/react-dropzone)
